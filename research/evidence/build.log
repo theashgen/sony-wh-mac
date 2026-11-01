@@ -1,0 +1,29 @@
+Building for debugging...
+[Planning deferred tasks]
+[2 / 10] SonyProtocol
+[4 / 12] SonyProtocol
+[9 / 16] SonyProtocol
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: SonyProtocol: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[14 / 20] sony-control-product
+[24 / 74]
+[33 / 74]
+[41 / 74]
+[46 / 74]
+[47 / 74]
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: ProtocolChecks-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: ProtocolChecks-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[52 / 74] ProtocolChecks-product
+[56 / 75]
+[58 / 75]
+[61 / 75]
+[63 / 75]
+[64 / 75]
+[65 / 75]
+[66 / 75]
+[67 / 75]
+[72 / 75] sony-control-product
+[73 / 75] sony-control-product
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[75 / 77] sony-control-product
+Build complete! (7.30 secs)

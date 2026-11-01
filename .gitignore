@@ -1,0 +1,5 @@
+research/apk/
+research/jadx/
+research/resources/
+.build/
+.DS_Store

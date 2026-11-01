@@ -1,0 +1,83 @@
+I: Using Apktool 3.0.3 on sound-connect-13.3.0.apk with 8 threads
+I: Copying raw classes.dex...
+I: Copying raw classes2.dex...
+I: Copying raw classes3.dex...
+I: Copying raw classes4.dex...
+I: Copying raw classes5.dex...
+I: Copying raw classes6.dex...
+I: Loading resource table...
+I: Decoding value resources...
+I: Loading resource table from file: /Users/theashgen/Library/apktool/framework/1.apk
+I: Decoding file resources...
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08078b, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08078a, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08078d, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08078c, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080795, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080682, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080681, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c6, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c6, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c5, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080688, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080687, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a9, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a9, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a2, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a8, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a8, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a2, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a9, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a9, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a2, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a8, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a8, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a2, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a5, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a3, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a4, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a3, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c0, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08068a, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080689, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c6, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b9, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c5, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b9, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b5, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b4, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b4, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b1, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b1, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b3, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806b2, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c7, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c7, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c8, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806c8, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080732, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080705, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080733, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080701, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080733, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080732, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806fc, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080733, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08070a, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080733, type=ref}
+I: Generating values XMLs...
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a1, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a1, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806ac, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a1, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806a1, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806ac, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08067c, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f0806be, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f080694, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08078e, type=ref}
+W: Unresolved resource reference: ResReference{pkg=ResPackage{id=0x7f, name=com.sony.songpal.mdr}, id=0x7f08078e, type=ref}
+I: Decoding AndroidManifest.xml with resources...
+I: Copying original files...
+I: Copying assets...
+I: Copying unknown files...

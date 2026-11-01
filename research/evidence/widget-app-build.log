@@ -1,0 +1,17 @@
+Building for production...
+[Planning deferred tasks]
+[6 / 18] SonyProtocol
+[8 / 19] SonyProtocol
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: SonyProtocol: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[14 / 19] sony-control-product
+[17 / 24]
+[18 / 24]
+[19 / 24]
+[20 / 24] sony-control-product
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[22 / 24] sony-control-product
+[23 / 24] sony-control-product
+Build complete! (7.47 secs)
+/Users/theashgen/.t3/projects/sony-rev/.build/Sony Control.app: replacing existing signature
+Built /Users/theashgen/.t3/projects/sony-rev/.build/Sony Control.app

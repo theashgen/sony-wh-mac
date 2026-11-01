@@ -1,0 +1,2 @@
+Exit: 0
+Sandboxed widget read succeeded: connected=true, mode=Ambient, battery=77

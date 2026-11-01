@@ -1,0 +1,13 @@
+Building for debugging...
+[Planning deferred tasks]
+[2 / 12]
+[3 / 13] SonyProtocol
+[5 / 15] SonyProtocol
+[9 / 14] ProtocolChecks-product
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: SonyProtocol: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[14 / 16] SonyProtocol
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: ProtocolChecks-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: ProtocolChecks-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[16 / 17] ProtocolChecks-product
+Build complete! (1.75 secs)
+8 protocol checks passed

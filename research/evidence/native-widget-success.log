@@ -1,0 +1,365 @@
+Timestamp               Ty Process[PID:TID]
+2026-11-01 15:32:28.399 Df chronod[703:8a400c] [com.apple.chrono:descriptor] Reloading descriptors for reason: "host requested: NotificationCenter" with extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:32:28.400 Df chronod[703:8a3fef] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] scheduling query
+2026-11-01 15:32:28.400 Df chronod[703:8a3fef] [com.apple.chrono:taskservice] [975FEAEA]: task submitted descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.400 Df chronod[703:8a3fef] [com.apple.chrono:taskservice] [975FEAEA]: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA overridden for budget exempt reason: free
+2026-11-01 15:32:28.412 Df chronod[703:8a400c] [com.apple.chrono:taskservice] Add pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.413 Df chronod[703:8a400c] [com.apple.chrono:taskservice] Popped next task of 1: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA from backgroundOpportunistic
+2026-11-01 15:32:28.413 Df chronod[703:8a400c] [com.apple.chrono:taskservice] Remove pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.413 Df chronod[703:8a400c] [com.apple.chrono:taskservice] [975FEAEA]: starting pended task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA; pendingTasks.count = 0
+2026-11-01 15:32:28.413 Df chronod[703:8a400c] [com.apple.chrono:tasksession] [975FEAEA]: start() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.413 Df chronod[703:8a400c] [com.apple.chrono:tasksession] [975FEAEA]: _taskQueue_setup() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.419 Df chronod[703:8a400c] [com.apple.chrono:session] Overriding assertion attributes in sync launch case: local.sony-rev.control.widget
+2026-11-01 15:32:28.426 Df chronod[703:8a400c] [com.apple.extensionkit:launch] Launching process with config: identity: RecordIdentity(record: ExtensionFoundation.Database._ExtensionRecord(lsRecord: <LSApplicationExtensionRecord 0x79f5a3f360> { bundleID: local.sony-rev.control.widget, URL: file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/, super: <LSApplicationExtensionRecord 0x79f5a3f360> { table: 24, unit: 13fc, attached: yes } })) instance: _InstanceIdentifier(_id: Optional(55B67C0C-0164-49A3-91B8-B86A412C6689))
+2026-11-01 15:32:28.446 Df chronod[703:8a400c] [com.apple.chrono:session] [local.sony-rev.control.widget-87EDF629-252E-40A6-93A2-22F03788A121] Created a new WidgetExtensionSession at user interactive priority.
+2026-11-01 15:32:28.447 Df chronod[703:8a400c] [com.apple.chrono:keepalive] Added: <Task 4FB73A53-8399-4D3C-9DE9-6F37101498A4: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:32:28.447 Df chronod[703:8a400c] [com.apple.chrono:tasksession] [975FEAEA]: _taskQueue_execute() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.447 Df chronod[703:8a400c] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] performing query - reason: host requested: NotificationCenter
+2026-11-01 15:32:28.447 Df chronod[703:8a400c] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] started tracking
+2026-11-01 15:32:28.447 Df chronod[703:8a400c] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] updated with wantsLocation=false container=local.sony-rev.control
+2026-11-01 15:32:28.462 A  SonyControlWidget[85517:8a4157] (libsystem_secinit.dylib) AppSandbox
+2026-11-01 15:32:28.472 A  SonyControlWidget[85517:8a4157] (libsystem_info.dylib) Retrieve User by ID
+2026-11-01 15:32:28.476 Df SonyControlWidget[85517:8a4157] [local.sony-rev.control.widget:startup] bundle: /Users/theashgen/Applications/Sony Control.app/Contents/PlugIns/SonyControlWidget.appex id: local.sony-rev.control.widget info: Optional(["CFBundleNumericVersion": 50364416, "CFBundleShortVersionString": 0.3.0, "DTPlatformVersion": 27.0, "CFBundleDisplayName": Sony Headphones, "CFBundleVersion": 3, "NSExtension": {
+    NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+}, "LSMinimumSystemVersion": 14.0, "DTPlatformName": macosx, "CFBundleInfoDictionaryVersion": 6.0, "CFBundleIdentifier": local.sony-rev.control.widget, "CFBundlePackageType": XPC!, "CFBundleSupportedPlatforms": <__NSArrayM 0x7966c040f0>(
+MacOSX
+)
+, "CFBundleName": Sony Headphones, "CFBundleExecutable": SonyControlWidget, "CFBundleDevelopmentRegion": en, "DTSDKName": macosx27.0, "NSAppTransportSecurity": {
+    NSAllowsLocalNetworking = 1;
+}])
+2026-11-01 15:32:28.476 Df SonyControlWidget[85517:8a4157] [com.apple.chrono:widget] main [WidgetBundle]
+2026-11-01 15:32:28.477 Df SonyControlWidget[85517:8a4157] [com.apple.xpc:connection] [0x100c35880] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-01 15:32:28.477 Df SonyControlWidget[85517:8a415b] [com.apple.xpc:connection] [0x100c37240] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.agent
+2026-11-01 15:32:28.478 Df SonyControlWidget[85517:8a4157] [com.apple.chrono:widget] Locale token: WDYGw749udNlvOsAibUKLnfexno=
+2026-11-01 15:32:28.479 Df SonyControlWidget[85517:8a4157] [com.apple.chrono:widget] WidgetHost - Optional(WidgetKit.ResolvedWidgetBundleHost)
+2026-11-01 15:32:28.480 Df chronod[703:8a400c] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] stopped tracking
+2026-11-01 15:32:28.480 Df chronod[703:8a4010] [com.apple.chrono:keepalive] Removed: <Task 4FB73A53-8399-4D3C-9DE9-6F37101498A4: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:32:28.480 Df chronod[703:8a400c] [com.apple.chrono:session] Connection to extension process was invalidated: local.sony-rev.control.widget
+2026-11-01 15:32:28.480 Df chronod[703:8a4010] [com.apple.chrono:tasksession] [975FEAEA]: _taskQueue_evaluate() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.480 Df chronod[703:8a4010] [com.apple.chrono:tasksession] [975FEAEA]: _taskQueue_teardown() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.480 Df chronod[703:8a4010] [com.apple.chrono:tasksession] [975FEAEA]: _taskQueue_complete() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.975FEAEA
+2026-11-01 15:32:28.480 E  chronod[703:8a400c] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] query failed - retrying in 3 seconds (1 attempts remaining): Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service with pid -1 named (null) was invalidated." UserInfo={NSDebugDescription=The connection to service with pid -1 named (null) was invalidated.}
+2026-11-01 15:32:28.481 Df chronod[703:8a400c] [com.apple.chrono:session] Connection to extension process was interrupted: local.sony-rev.control.widget
+2026-11-01 15:32:31.679 Df chronod[703:8a416a] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] scheduling query
+2026-11-01 15:32:31.679 Df chronod[703:8a416a] [com.apple.chrono:taskservice] [4CE4F0AD]: task submitted descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.679 Df chronod[703:8a416a] [com.apple.chrono:taskservice] [4CE4F0AD]: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD overridden for budget exempt reason: free
+2026-11-01 15:32:31.680 Df chronod[703:8a4169] [com.apple.chrono:taskservice] Add pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.680 Df chronod[703:8a4169] [com.apple.chrono:taskservice] Popped next task of 1: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD from backgroundOpportunistic
+2026-11-01 15:32:31.680 Df chronod[703:8a4169] [com.apple.chrono:taskservice] Remove pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.680 Df chronod[703:8a4169] [com.apple.chrono:taskservice] [4CE4F0AD]: starting pended task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD; pendingTasks.count = 0
+2026-11-01 15:32:31.680 Df chronod[703:8a400c] [com.apple.chrono:tasksession] [4CE4F0AD]: start() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.680 Df chronod[703:8a400c] [com.apple.chrono:tasksession] [4CE4F0AD]: _taskQueue_setup() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.680 Df chronod[703:8a400c] [com.apple.chrono:session] Overriding assertion attributes in sync launch case: local.sony-rev.control.widget
+2026-11-01 15:32:31.682 Df chronod[703:8a400c] [com.apple.extensionkit:launch] Launching process with config: identity: RecordIdentity(record: ExtensionFoundation.Database._ExtensionRecord(lsRecord: <LSApplicationExtensionRecord 0x79f5a3e5e0> { bundleID: local.sony-rev.control.widget, URL: file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/, super: <LSApplicationExtensionRecord 0x79f5a3e5e0> { table: 24, unit: 13fc, attached: yes } })) instance: _InstanceIdentifier(_id: Optional(55B67C0C-0164-49A3-91B8-B86A412C6689))
+2026-11-01 15:32:31.701 Df chronod[703:8a400c] [com.apple.chrono:session] [local.sony-rev.control.widget-5F5CA01A-97AE-4678-A9BA-638F0F1EAC32] Created a new WidgetExtensionSession at user interactive priority.
+2026-11-01 15:32:31.701 Df chronod[703:8a400c] [com.apple.chrono:keepalive] Added: <Task 9F92348E-CCE9-4881-9B54-E011DA292426: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:32:31.701 Df chronod[703:8a400c] [com.apple.chrono:tasksession] [4CE4F0AD]: _taskQueue_execute() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.701 Df chronod[703:8a400c] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] performing query - reason: delayed retry from failure
+2026-11-01 15:32:31.702 Df chronod[703:8a400c] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] started tracking
+2026-11-01 15:32:31.702 Df chronod[703:8a400c] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] updated with wantsLocation=false container=local.sony-rev.control
+2026-11-01 15:32:31.710 A  SonyControlWidget[85519:8a41a7] (libsystem_secinit.dylib) AppSandbox
+2026-11-01 15:32:31.723 A  SonyControlWidget[85519:8a41a7] (libsystem_info.dylib) Retrieve User by ID
+2026-11-01 15:32:31.726 Df SonyControlWidget[85519:8a41a7] [local.sony-rev.control.widget:startup] bundle: /Users/theashgen/Applications/Sony Control.app/Contents/PlugIns/SonyControlWidget.appex id: local.sony-rev.control.widget info: Optional(["CFBundleSupportedPlatforms": <__NSArrayM 0x74d2c040f0>(
+MacOSX
+)
+, "NSAppTransportSecurity": {
+    NSAllowsLocalNetworking = 1;
+}, "CFBundleName": Sony Headphones, "CFBundleVersion": 3, "CFBundleNumericVersion": 50364416, "CFBundleExecutable": SonyControlWidget, "CFBundleShortVersionString": 0.3.0, "CFBundleInfoDictionaryVersion": 6.0, "CFBundleIdentifier": local.sony-rev.control.widget, "CFBundlePackageType": XPC!, "DTSDKName": macosx27.0, "LSMinimumSystemVersion": 14.0, "CFBundleDevelopmentRegion": en, "DTPlatformVersion": 27.0, "NSExtension": {
+    NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+}, "DTPlatformName": macosx, "CFBundleDisplayName": Sony Headphones])
+2026-11-01 15:32:31.726 Df SonyControlWidget[85519:8a41a7] [com.apple.chrono:widget] main [WidgetBundle]
+2026-11-01 15:32:31.728 Df SonyControlWidget[85519:8a41a7] [com.apple.xpc:connection] [0x10492d890] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-01 15:32:31.728 Df SonyControlWidget[85519:8a41a8] [com.apple.xpc:connection] [0x10492f240] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.agent
+2026-11-01 15:32:31.731 Df SonyControlWidget[85519:8a41a7] [com.apple.chrono:widget] Locale token: WDYGw749udNlvOsAibUKLnfexno=
+2026-11-01 15:32:31.731 Df SonyControlWidget[85519:8a41a7] [com.apple.chrono:widget] WidgetHost - Optional(WidgetKit.ResolvedWidgetBundleHost)
+2026-11-01 15:32:31.733 Df chronod[703:8a416a] [com.apple.chrono:session] Connection to extension process was interrupted: local.sony-rev.control.widget
+2026-11-01 15:32:31.733 Df chronod[703:8a4169] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] stopped tracking
+2026-11-01 15:32:31.734 Df chronod[703:8a416a] [com.apple.chrono:keepalive] Removed: <Task 9F92348E-CCE9-4881-9B54-E011DA292426: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:32:31.734 Df chronod[703:8a416a] [com.apple.chrono:tasksession] [4CE4F0AD]: _taskQueue_evaluate() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.734 Df chronod[703:8a416a] [com.apple.chrono:tasksession] [4CE4F0AD]: _taskQueue_teardown() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.734 Df chronod[703:8a416a] [com.apple.chrono:tasksession] [4CE4F0AD]: _taskQueue_complete() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4CE4F0AD
+2026-11-01 15:32:31.734 Df chronod[703:8a4169] [com.apple.chrono:session] Connection to extension process was invalidated: local.sony-rev.control.widget
+2026-11-01 15:32:31.734 E  chronod[703:8a400c] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] query failed - will try lazy reload later: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service with pid -1 named (null) was invalidated." UserInfo={NSDebugDescription=The connection to service with pid -1 named (null) was invalidated.}
+2026-11-01 15:32:46.892 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:46.958 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:47.028 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:47.049 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:54.249 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:54.386 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:54.554 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:54.639 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:32:54.653 Df chronod[703:8a415e] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:33:01.612 Df chronod[703:8a415e] [com.apple.chrono:extensions] Updated extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, now with pluginUUID DEA84FD0-22B4-4847-B32B-34819EEE22FC, (was 4316F836-B1DC-4204-BD38-B99EADCA699A)
+2026-11-01 15:33:01.614 Df chronod[703:8a4588] [com.apple.chrono:extensions-verbose] Updated extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:33:01.617 Df chronod[703:8a45ee] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:33:01.617 Df chronod[703:8a45ee] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:01.617 Df chronod[703:8a45ee] [com.apple.chrono:descriptor] Queuing extension added events: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:01.618 Df chronod[703:8a45ee] [com.apple.chrono:descriptor] Updating descriptors if necessary for new or updated extensions: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:33:01.618 Df chronod[703:8a45ee] [com.apple.chrono:database] No metadata for local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:01.618 Df chronod[703:8a45ee] [com.apple.chrono:database-verbose] Refetching descriptors due to mismatching versions or locales: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:33:01.618 Df chronod[703:8a45ee] [com.apple.chrono:database] Requesting descriptor fetch for local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:01.619 Df chronod[703:8a45ee] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] scheduling query
+2026-11-01 15:33:01.619 Df chronod[703:8a45ee] [com.apple.chrono:taskservice] [875671D5]: task submitted descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.619 Df chronod[703:8a45ee] [com.apple.chrono:taskservice] [875671D5]: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5 overridden for budget exempt reason: free
+2026-11-01 15:33:01.620 Df chronod[703:8a4588] [com.apple.chrono:taskservice] Add pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.620 Df chronod[703:8a4588] [com.apple.chrono:taskservice] Popped next task of 1: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5 from backgroundOpportunistic
+2026-11-01 15:33:01.620 Df chronod[703:8a4588] [com.apple.chrono:taskservice] Remove pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.620 Df chronod[703:8a4588] [com.apple.chrono:taskservice] [875671D5]: starting pended task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5; pendingTasks.count = 0
+2026-11-01 15:33:01.620 Df chronod[703:8a45ee] [com.apple.chrono:tasksession] [875671D5]: start() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.620 Df chronod[703:8a45ee] [com.apple.chrono:tasksession] [875671D5]: _taskQueue_setup() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.621 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:33:01.621 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:33:01.621 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:33:01.622 Df chronod[703:8a45ee] [com.apple.chrono:session] Overriding assertion attributes in sync launch case: local.sony-rev.control.widget
+2026-11-01 15:33:01.627 Df chronod[703:8a45ee] [com.apple.extensionkit:launch] Launching process with config: identity: RecordIdentity(record: ExtensionFoundation.Database._ExtensionRecord(lsRecord: <LSApplicationExtensionRecord 0x79f5a679c0> { bundleID: local.sony-rev.control.widget, URL: file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/, super: <LSApplicationExtensionRecord 0x79f5a679c0> { table: 24, unit: 1404, attached: yes } })) instance: _InstanceIdentifier(_id: Optional(55B67C0C-0164-49A3-91B8-B86A412C6689))
+2026-11-01 15:33:01.644 Df chronod[703:8a45ee] [com.apple.chrono:session] [local.sony-rev.control.widget-AAB3863A-F7E6-4259-8A3F-A30AB1246A76] Created a new WidgetExtensionSession at user interactive priority.
+2026-11-01 15:33:01.645 Df chronod[703:8a45ee] [com.apple.chrono:keepalive] Added: <Task E9DAB532-FCE4-4F90-9ECF-75E9F2FFA678: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:33:01.645 Df chronod[703:8a45ee] [com.apple.chrono:tasksession] [875671D5]: _taskQueue_execute() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.645 Df chronod[703:8a45ee] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] performing query - reason: cache initiated
+2026-11-01 15:33:01.645 Df chronod[703:8a45ee] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] started tracking
+2026-11-01 15:33:01.645 Df chronod[703:8a45ee] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] updated with wantsLocation=false container=local.sony-rev.control
+2026-11-01 15:33:01.668 A  SonyControlWidget[85762:8a45f2] (libsystem_secinit.dylib) AppSandbox
+2026-11-01 15:33:01.677 A  SonyControlWidget[85762:8a45f2] (libsystem_info.dylib) Retrieve User by ID
+2026-11-01 15:33:01.681 Df SonyControlWidget[85762:8a45f2] [com.apple.extensionkit:default] Extension `SonyControlWidget` of type: `service` launched.
+2026-11-01 15:33:01.682 Df SonyControlWidget[85762:8a45f2] [com.apple.extensionkit:launch] Extension Type: '<private>' : <private>
+2026-11-01 15:33:01.682 Df SonyControlWidget[85762:8a45f2] [com.apple.runningboard:connection] Initializing connection
+2026-11-01 15:33:01.682 Df SonyControlWidget[85762:8a45f2] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-01 15:33:01.682 Df SonyControlWidget[85762:8a45f9] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-01 15:33:01.682 Df SonyControlWidget[85762:8a45f9] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-01 15:33:01.682 Df SonyControlWidget[85762:8a45f9] [com.apple.xpc:connection] [0x10309c2d0] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-01 15:33:01.684 Df SonyControlWidget[85762:8a45f9] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-01 15:33:01.684 Df SonyControlWidget[85762:8a45f9] [com.apple.runningboard:connection] Identity resolved as extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]
+2026-11-01 15:33:01.686 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x1030a4f90] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-01 15:33:01.687 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] main [WidgetBundle]
+2026-11-01 15:33:01.689 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x1030a08e0] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-01 15:33:01.689 Df SonyControlWidget[85762:8a45fa] [com.apple.xpc:connection] [0x7a050b8000] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.agent
+2026-11-01 15:33:01.692 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Locale token: WDYGw749udNlvOsAibUKLnfexno=
+2026-11-01 15:33:01.693 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] WidgetHost - Optional(WidgetKit.ResolvedWidgetBundleHost)
+2026-11-01 15:33:01.695 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b8140] readying connection: mach=false listener=true peer=false name=local.sony-rev.control.widget
+2026-11-01 15:33:01.699 Df SonyControlWidget[85762:8a45f2] [com.apple.BoardServices:Bootstrap] initializing domain XPCService
+2026-11-01 15:33:01.699 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b8140] activating connection: mach=false listener=true peer=false name=local.sony-rev.control.widget
+2026-11-01 15:33:01.700 Df SonyControlWidget[85762:8a45fa] [com.apple.xpc:connection] [0x7a050b83c0] activating connection: mach=false listener=false peer=true name=local.sony-rev.control.widget.peer[703].0x7a050b83c0
+2026-11-01 15:33:01.703 Df SonyControlWidget[85762:8a45f9] [com.apple.chrono:widget] =+= getAllCurrentDescriptors(completion:) - locale: en_IN (fixed en_IN)
+2026-11-01 15:33:01.708 Df SonyControlWidget[85762:8a45f2] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-01 15:33:01.712 Df chronod[703:8a45f0] [com.apple.chrono:descriptor] Migrating descriptor nativeContainerBundleIdentifier: local.sony-rev.control.widget:SonyHeadphoneWidget to local.sony-rev.control
+2026-11-01 15:33:01.712 Df chronod[703:8a45ef] [com.apple.chrono:keepalive] Removed: <Task E9DAB532-FCE4-4F90-9ECF-75E9F2FFA678: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:33:01.712 Df chronod[703:8a45ef] [com.apple.chrono:tasksession] [875671D5]: _taskQueue_evaluate() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.712 Df chronod[703:8a45f0] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] stopped tracking
+2026-11-01 15:33:01.712 Df chronod[703:8a45f0] [com.apple.chrono:session] Connection to extension process was invalidated: local.sony-rev.control.widget
+2026-11-01 15:33:01.712 Df chronod[703:8a45ef] [com.apple.chrono:tasksession] [875671D5]: _taskQueue_teardown() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.712 Df chronod[703:8a45ef] [com.apple.chrono:tasksession] [875671D5]: _taskQueue_complete() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.875671D5
+2026-11-01 15:33:01.712 Df chronod[703:8a45f0] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] query completed
+2026-11-01 15:33:01.712 Df chronod[703:8a45f0] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] query returned 1 widget descriptors, 0 controls, 0 activities
+2026-11-01 15:33:01.712 Df chronod[703:8a45f0] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] Found: <CHSWidgetDescriptor: 0x79f673fd40; kind: SonyHeadphoneWidget; supportedFamilies: "(systemSmall, systemMedium)"; hasDefaultIntent: NO>
+2026-11-01 15:33:01.713 Df chronod[703:8a45f0] [com.apple.chrono:database] Updating descriptor cache for local.sony-rev.control::local.sony-rev.control.widget with ChronoKit.ExtensionMetadata(id: local.sony-rev.control.widget, version: "3-3-(1970-01-01T00:00:00Z)", widgetDescriptors: [<CHSWidgetDescriptor: 0x79f673fd40> {
+    extensionIdentity = local.sony-rev.control::local.sony-rev.control.widget;
+    kind = SonyHeadphoneWidget;
+    displayName = "Sony Headphones";
+    intentType = 0x0;
+    enabled = YES;
+    enablement = 0;
+    version = 2;
+    preferredBackgroundStyle = 0;
+    supportsVibrantContent = NO;
+    supportsAccentedContent = YES;
+    backgroundRemovable = YES;
+    sdkVersion = 27.0;
+    platform = 1;
+    hasDefaultIntent = NO;
+    supportedFamilies = "(systemSmall, systemMedium)";
+    localeToken = WDYGw749udNlvOsAibUKLnfexno=;
+    spatialChromeStyles = "(elevated, recessed)";
+    spatialSurface = glass;
+    wantsLiveScene = NO;
+    requestedDataProtection = 2;
+    widgetDescription = "Headphone battery and noise control. Tap a mode to apply it through Sony Control.";
+    configurationBac<…>.
+2026-11-01 15:33:01.714 Df chronod[703:8a45f0] [com.apple.chrono:database] inserting metadata ExtensionMetadata(id: local.sony-rev.control.widget, version: "3-3-(1970-01-01T00:00:00Z)", widgetDescriptors: [<CHSWidgetDescriptor: 0x79f673fd40> {
+    extensionIdentity = local.sony-rev.control::local.sony-rev.control.widget;
+    kind = SonyHeadphoneWidget;
+    displayName = "Sony Headphones";
+    intentType = 0x0;
+    enabled = YES;
+    enablement = 0;
+    version = 2;
+    preferredBackgroundStyle = 0;
+    supportsVibrantContent = NO;
+    supportsAccentedContent = YES;
+    backgroundRemovable = YES;
+    sdkVersion = 27.0;
+    platform = 1;
+    hasDefaultIntent = NO;
+    supportedFamilies = "(systemSmall, systemMedium)";
+    localeToken = WDYGw749udNlvOsAibUKLnfexno=;
+    spatialChromeStyles = "(elevated, recessed)";
+    spatialSurface = glass;
+    wantsLiveScene = NO;
+    requestedDataProtection = 2;
+    widgetDescription = "Headphone battery and noise control. Tap a mode to apply it through Sony Control.";
+    configurationBackgroundColor = 0x0;
+    configurationAccentColor = 0x0;
+}], controlDes<…> into store.
+2026-11-01 15:33:02.051 Df chronod[703:8a415e] [com.apple.chrono:widgetEntryDescriptorObserver-verbose] [Placeholder] Updating descriptor: [local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::(null)~(null)] with: <CHSWidgetDescriptor: 0x79f673fd40> {
+    extensionIdentity = local.sony-rev.control::local.sony-rev.control.widget;
+    kind = SonyHeadphoneWidget;
+    displayName = "Sony Headphones";
+    intentType = 0x0;
+    enabled = YES;
+    enablement = 0;
+    version = 2;
+    preferredBackgroundStyle = 0;
+    supportsVibrantContent = NO;
+    supportsAccentedContent = YES;
+    backgroundRemovable = YES;
+    sdkVersion = 27.0;
+    platform = 1;
+    hasDefaultIntent = NO;
+    supportedFamilies = "(systemSmall, systemMedium)";
+    localeToken = WDYGw749udNlvOsAibUKLnfexno=;
+    spatialChromeStyles = "(elevated, recessed)";
+    spatialSurface = glass;
+    wantsLiveScene = NO;
+    requestedDataProtection = 2;
+    widgetDescription = "Headphone battery and noise control. Tap a mode to apply it through Sony Control.";
+    configurationBackgroundColor = 0x0;
+    configurationAccentColor = 0x0;
+}
+2026-11-01 15:33:02.051 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local Add to store.  Marked as state: reload
+2026-11-01 15:33:02.051 Df chronod[703:8a415e] [com.apple.chrono:placeholder] Will fetch placeholder for variantKey: [local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local
+2026-11-01 15:33:02.051 Df chronod[703:8a415e] [com.apple.chrono:widgetEntryDescriptorObserver-verbose] [Placeholder] Updating descriptor: [local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::(null)~(null)] with: <CHSWidgetDescriptor: 0x79f673fd40> {
+    extensionIdentity = local.sony-rev.control::local.sony-rev.control.widget;
+    kind = SonyHeadphoneWidget;
+    displayName = "Sony Headphones";
+    intentType = 0x0;
+    enabled = YES;
+    enablement = 0;
+    version = 2;
+    preferredBackgroundStyle = 0;
+    supportsVibrantContent = NO;
+    supportsAccentedContent = YES;
+    backgroundRemovable = YES;
+    sdkVersion = 27.0;
+    platform = 1;
+    hasDefaultIntent = NO;
+    supportedFamilies = "(systemSmall, systemMedium)";
+    localeToken = WDYGw749udNlvOsAibUKLnfexno=;
+    spatialChromeStyles = "(elevated, recessed)";
+    spatialSurface = glass;
+    wantsLiveScene = NO;
+    requestedDataProtection = 2;
+    widgetDescription = "Headphone battery and noise control. Tap a mode to apply it through Sony Control.";
+    configurationBackgroundColor = 0x0;
+    configurationAccentColor = 0x0;
+}
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local Add to store.  Marked as state: reload
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder] Will fetch placeholder for variantKey: [local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder] Creating precache assertion for local.sony-rev.control::local.sony-rev.control.widget (2 variants)
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local assertion: acquired (1)
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local assertion: acquired (1)
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder] Requesting reload for extension: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget Reload with configuration [initial-immediate-free-1]
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] record reload: local.sony-rev.control::local.sony-rev.control.widget = initial
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget Preparing reload
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget Dispatching new task
+2026-11-01 15:33:02.052 Df chronod[703:8a415e] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget Scheduling reload with configuration: [initial-immediate-free-1]
+2026-11-01 15:33:02.052 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget Checking cache because config reason is initial
+2026-11-01 15:33:02.053 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget scheduled [initial-immediate-free-1]
+2026-11-01 15:33:02.053 Df chronod[703:8a45f0] [com.apple.chrono:taskservice] [39A45074]: task submitted placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.053 Df chronod[703:8a45f0] [com.apple.chrono:taskservice] [39A45074]: placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074 overridden for budget exempt reason: free
+2026-11-01 15:33:02.053 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget Scheduled with cancellable token: [<TaskService.TaskCancellable: TaskID: 39A45074>]
+2026-11-01 15:33:02.054 Df chronod[703:8a45ef] [com.apple.chrono:taskservice] Add pending task: placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.054 Df chronod[703:8a45ef] [com.apple.chrono:taskservice] Popped next task of 1: placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074 from backgroundOpportunistic
+2026-11-01 15:33:02.054 Df chronod[703:8a45ef] [com.apple.chrono:taskservice] Remove pending task: placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.054 Df chronod[703:8a45ef] [com.apple.chrono:taskservice] [39A45074]: starting pended task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074; pendingTasks.count = 0
+2026-11-01 15:33:02.054 Df chronod[703:8a45ef] [com.apple.chrono:tasksession] [39A45074]: start() with task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.054 Df chronod[703:8a45ef] [com.apple.chrono:tasksession] [39A45074]: _taskQueue_setup() with task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.055 Df chronod[703:8a45ef] [com.apple.chrono:session] Overriding assertion attributes in sync launch case: local.sony-rev.control.widget
+2026-11-01 15:33:02.057 Df chronod[703:8a45ef] [com.apple.extensionkit:launch] Launching process with config: identity: RecordIdentity(record: ExtensionFoundation.Database._ExtensionRecord(lsRecord: <LSApplicationExtensionRecord 0x79f58b2880> { bundleID: local.sony-rev.control.widget, URL: file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/, super: <LSApplicationExtensionRecord 0x79f58b2880> { table: 24, unit: 1404, attached: yes } })) instance: _InstanceIdentifier(_id: Optional(55B67C0C-0164-49A3-91B8-B86A412C6689))
+2026-11-01 15:33:02.066 Df chronod[703:8a45ef] [com.apple.chrono:keepalive] Added: <Task 7CC37D5A-3A2B-40D8-A446-1AEB6D274D64: placeholder<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:33:02.066 Df chronod[703:8a45ef] [com.apple.chrono:tasksession] [39A45074]: _taskQueue_execute() with task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.067 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] Reload local.sony-rev.control::local.sony-rev.control.widget: begin
+2026-11-01 15:33:02.067 Df chronod[703:8a45ef] [com.apple.chrono:keepalive] Added: Reload placeholders: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:02.071 Df chronod[703:8a45ef] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] started tracking
+2026-11-01 15:33:02.071 Df chronod[703:8a45ef] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] updated with wantsLocation=false container=local.sony-rev.control
+2026-11-01 15:33:02.080 Df SonyControlWidget[85762:8a45fa] [com.apple.chrono:placeholder] Batch begin (pl-e079da) - locale: en_IN (fixed en_IN)
+2026-11-01 15:33:02.080 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:placeholder] Request began for SonyHeadphoneWidget:systemSmall - to archive: /private/var/folders/hg/x5f2rn1j04z241mzmg0dgp4c0000gn/T/com.apple.chrono/TemporaryItems/NSIRD_chronod_QhzuwL/systemSmall164.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR#vfsEQ3NEuHIIxpQplS#DfabA=.chrono-timeline
+2026-11-01 15:33:02.085 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Archive deployment version: DeploymentVersion(base: SwiftUI.ArchivedViewInput.DeploymentVersion(rawValue: 5))
+2026-11-01 15:33:02.095 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.099 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.136 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b8280] activating connection: mach=true listener=false peer=false name=com.apple.fonts
+2026-11-01 15:33:02.158 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b8640] activating connection: mach=true listener=false peer=false name=com.apple.distributed_notifications@Uv3
+2026-11-01 15:33:02.165 A  SonyControlWidget[85762:8a45f2] (TCC) TCCAccessRequest() IPC
+2026-11-01 15:33:02.165 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b88c0] activating connection: mach=true listener=false peer=false name=com.apple.tccd.system
+2026-11-01 15:33:02.174 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b88c0] invalidated after the last release of the connection object
+2026-11-01 15:33:02.177 Df SonyControlWidget[85762:8a45f2] [com.apple.SkyLight:default] server port 0x00004007, session port 0x00004007
+2026-11-01 15:33:02.189 Df SonyControlWidget[85762:8a45f2] [com.apple.xpc:connection] [0x7a050b88c0] activating connection: mach=true listener=false peer=false name=com.apple.coreservices.launchservicesd
+2026-11-01 15:33:02.191 Df SonyControlWidget[85762:8a45f2] [com.apple.SkyLight:default] New connection 0x2c373f main
+2026-11-01 15:33:02.192 Df SonyControlWidget[85762:8a45f2] [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 2), (SLS: 1)
+2026-11-01 15:33:02.201 Df SonyControlWidget[85762:8a45f2] [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 2), (SLS: 1)
+2026-11-01 15:33:02.204 Df SonyControlWidget[85762:8a45f2] [com.apple.AppKit:Appearance] Post-registration system appearance: (HLTB: 2)
+2026-11-01 15:33:02.248 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.251 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.259 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:placeholder] Request ended for SonyHeadphoneWidget:systemSmall - success.
+2026-11-01 15:33:02.259 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:placeholder] Request began for SonyHeadphoneWidget:systemMedium - to archive: /private/var/folders/hg/x5f2rn1j04z241mzmg0dgp4c0000gn/T/com.apple.chrono/TemporaryItems/NSIRD_chronod_rCw63x/systemMedium344.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR#vfsEQ3NEuHIIxpQplS#DfabA=.chrono-timeline
+2026-11-01 15:33:02.259 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Archive deployment version: DeploymentVersion(base: SwiftUI.ArchivedViewInput.DeploymentVersion(rawValue: 5))
+2026-11-01 15:33:02.259 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.267 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.298 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=2700
+2026-11-01 15:33:02.313 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:placeholder] Request ended for SonyHeadphoneWidget:systemMedium - success.
+2026-11-01 15:33:02.313 Df SonyControlWidget[85762:8a45f2] [com.apple.chrono:placeholder] Batch ended (pl-e079da) - success
+2026-11-01 15:33:02.315 Df chronod[703:8a45ef] [com.apple.chrono:archiving] [local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local-file:///Users/theashgen/Library/Containers/local.sony-rev.control.widget/Data/SystemData/com.apple.chrono/placeholders/SonyHeadphoneWidget/systemSmall164.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR%23vfsEQ3NEuHIIxpQplS%23DfabA=.chrono-timeline destroying promise for 'Accepted successfully to file:///Users/theashgen/Library/Containers/local.sony-rev.control.widget/Data/SystemData/com.apple.chrono/placeholders/SonyHeadphoneWidget/systemSmall164.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR%23vfsEQ3NEuHIIxpQplS%23DfabA=.chrono-timeline.' - </var/folders/hg/x5f2rn1j04z241mzmg0dgp4c0000gn/T/com.apple.chrono//TemporaryItems/NSIRD_chronod_QhzuwL/systemSmall164.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR#vfsEQ3NEuHIIxpQplS#DfabA=.chrono-timeline>
+2026-11-01 15:33:02.316 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] Reload local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall: succeeded with 1 entries
+2026-11-01 15:33:02.317 Df chronod[703:8a45ef] [com.apple.chrono:archiving] [local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local-file:///Users/theashgen/Library/Containers/local.sony-rev.control.widget/Data/SystemData/com.apple.chrono/placeholders/SonyHeadphoneWidget/systemMedium344.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR%23vfsEQ3NEuHIIxpQplS%23DfabA=.chrono-timeline destroying promise for 'Accepted successfully to file:///Users/theashgen/Library/Containers/local.sony-rev.control.widget/Data/SystemData/com.apple.chrono/placeholders/SonyHeadphoneWidget/systemMedium344.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR%23vfsEQ3NEuHIIxpQplS%23DfabA=.chrono-timeline.' - </var/folders/hg/x5f2rn1j04z241mzmg0dgp4c0000gn/T/com.apple.chrono//TemporaryItems/NSIRD_chronod_rCw63x/systemMedium344.00w-164.00h-27.88r-kwXjBcg0jLGkOXgfIR#vfsEQ3NEuHIIxpQplS#DfabA=.chrono-timeline>
+2026-11-01 15:33:02.317 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] Reload local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium: succeeded with 1 entries
+2026-11-01 15:33:02.317 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget reload: end
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:keepalive] Removed: Reload placeholders: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:33:02.318 Df chronod[703:8a4588] [com.apple.chrono:keepalive] Removed: <Task 7CC37D5A-3A2B-40D8-A446-1AEB6D274D64: placeholder<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] stopped tracking
+2026-11-01 15:33:02.318 Df chronod[703:8a4588] [com.apple.chrono:tasksession] [39A45074]: _taskQueue_evaluate() with task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.318 Df chronod[703:8a4588] [com.apple.chrono:tasksession] [39A45074]: _taskQueue_teardown() with task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:02.318 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget Completed
+2026-11-01 15:33:02.318 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget Reload success
+2026-11-01 15:33:02.318 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget New state: clean
+2026-11-01 15:33:02.318 Df chronod[703:8a45f0] [com.apple.chrono:placeholder.store] Task [263] local.sony-rev.control::local.sony-rev.control.widget No remaining tasks
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local assertion released (0)
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemMedium::344.00/164.00/27.88:(null)~(null)] on local Removed variant from store
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local assertion released (0)
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local:[local.sony-rev.control::local.sony-rev.control.widget:SonyHeadphoneWidget:systemSmall::164.00/164.00/27.88:(null)~(null)] on local Removed variant from store
+2026-11-01 15:33:02.318 Df chronod[703:8a45ef] [com.apple.chrono:placeholder.store] local.sony-rev.control::local.sony-rev.control.widget Removed from store
+2026-11-01 15:33:02.318 Df chronod[703:8a45f0] [com.apple.chrono:session] Connection to extension process was invalidated: local.sony-rev.control.widget
+2026-11-01 15:33:02.318 Df chronod[703:8a4588] [com.apple.chrono:tasksession] [39A45074]: _taskQueue_complete() with task placeholder<local.sony-rev.control::local.sony-rev.control.widget>.39A45074
+2026-11-01 15:33:31.915 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:33:31.922 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:33 PM
+2026-11-01 15:33:31.979 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:33:31.981 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:33 PM
+2026-11-01 15:33:32.071 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:33:32.074 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:33 PM
+2026-11-01 15:33:32.092 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:33:32.094 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:33 PM
+2026-11-01 15:34:16.876 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:34:16.881 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:34 PM
+2026-11-01 15:34:16.955 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:34:16.959 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:34 PM
+2026-11-01 15:34:17.023 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:34:17.027 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:34 PM
+2026-11-01 15:34:17.039 Df chronod[703:8a4746] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:34:17.041 Df chronod[703:8a4746] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:34 PM
+2026-11-01 15:34:52.756 Df chronod[703:8a4c05] [com.apple.chrono:extensions] Updated extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, now with pluginUUID F629BC06-E74F-44D4-BBFE-5FC31B7761C4, (was DEA84FD0-22B4-4847-B32B-34819EEE22FC)
+2026-11-01 15:34:52.758 Df chronod[703:8a4996] [com.apple.chrono:extensions-verbose] Updated extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:34:52.761 Df chronod[703:8a4c05] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:34:52.761 Df chronod[703:8a4c05] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:34:52.761 Df chronod[703:8a4c05] [com.apple.chrono:descriptor] Queuing extension added events: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:34:52.762 Df chronod[703:8a4c05] [com.apple.chrono:descriptor] Updating descriptors if necessary for new or updated extensions: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:34:52.770 Df chronod[703:16c2] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: 1/11/2026, 3:34 PM
+2026-11-01 15:34:52.775 Df chronod[703:16c2] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: 1/11/2026, 3:34 PM
+2026-11-01 15:34:52.775 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:35:01.875 Df chronod[703:8a4996] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:35:01.882 Df chronod[703:8a4996] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:35 PM
+2026-11-01 15:35:01.944 Df chronod[703:8a4996] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:35:01.948 Df chronod[703:8a4996] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:35 PM
+2026-11-01 15:35:02.068 Df chronod[703:8a4996] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:35:02.076 Df chronod[703:8a4996] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:35 PM
+2026-11-01 15:35:02.104 Df chronod[703:8a4996] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:35:02.107 Df chronod[703:8a4996] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:35 PM
+2026-11-01 15:35:17.155 Df chronod[703:8a503d] [com.apple.chrono:extensions] Ignoring restricted or unknown extension local.sony-rev.control
+2026-11-01 15:35:17.163 Df chronod[703:8a503d] [com.apple.chrono:reloadService] Setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=SonyHeadphoneWidget>: 1/11/2026, 3:35 PM

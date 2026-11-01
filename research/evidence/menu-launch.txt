@@ -1,0 +1,8 @@
+Final smoke check — 2026-11-01
+Command: '.build/Sony Control.app/Contents/MacOS/sony-control'
+Result: App remained running and its startup controller returned:
+WH-CH720N · Battery 80%
+Sound: ANC · Ambient level 20 · Voice focus off
+EQ: custom1
+
+The initial menu launch timed out because Bluetooth callbacks were blocked by a nested main-dispatch operation. Scheduling controller operations through a run-loop timer resolved the startup failure. The final app was rebuilt and its signature/plist checks passed. Menu actions were not individually clicked; the shared controller's setting paths passed hardware verification.

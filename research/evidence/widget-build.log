@@ -1,0 +1,9 @@
+Building for debugging...
+[1 / 4] ProtocolChecks-product
+[2 / 5] sony-control-product
+[5 / 8] sony-control-product
+[8 / 10] sony-control-product
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[10 / 12] sony-control-product
+Build complete! (2.05 secs)

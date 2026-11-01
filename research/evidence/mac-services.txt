@@ -1,0 +1,21 @@
+Device: WH-CH720N connected=true
+Service: BTNOTIFYR channel=8 result=0
+Service: SPP Serial Port channel=18 result=0
+Service: ? channel=22 result=0
+Service: ? channel=0 result=-536870160
+Service: SPP Serial Port channel=15 result=0
+Service: ? channel=0 result=-536870160
+Service: BTFASTPAIR channel=23 result=0
+Service: Airoha_IAP2 channel=30 result=0
+Service: GSOUND_BT_CONTROL channel=19 result=0
+Service: GSOUND_BT_AUDIO channel=20 result=0
+Service: ? channel=0 result=-536870160
+Service: Hands-Free unit channel=1 result=0
+Service: Headset channel=2 result=0
+Service: ? channel=0 result=-536870160
+Service: Airoha_APP channel=21 result=0
+Service: ? channel=0 result=-536870160
+Service: ? channel=0 result=-536870160
+Service: Headset channel=2 result=0
+Sony 96CC203E-5068-46AD-B32D-E316F5E069BA: absent
+Sony 956C7B26-D49A-4BA8-B03F-B17D393CB6E2: 0 channel=18

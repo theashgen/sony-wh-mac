@@ -1,0 +1,23 @@
+Building for debugging...
+[Planning 21 / 124]
+[Planning deferred tasks]
+[10 / 30]
+[11 / 26] WidgetShared
+[13 / 28] WidgetShared
+[21 / 27] WidgetShared
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: WidgetShared: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[22 / 27] sony-control-product
+[34 / 57]
+[38 / 57]
+[41 / 57]
+[44 / 57]
+[46 / 57]
+[47 / 57]
+[48 / 57]
+[52 / 57] sony-control-product
+[53 / 57] sony-control-product
+[54 / 58] sony-control-product
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[56 / 58] sony-control-product
+Build complete! (6.98 secs)

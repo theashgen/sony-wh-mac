@@ -1,0 +1,343 @@
+Timestamp               Ty Process[PID:TID]
+2026-11-01 15:20:40.861 Df chronod[703:89dddf] [com.apple.chrono:extensions-verbose] Added extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 2, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:20:40.862 Df chronod[703:89e531] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:20:40.862 Df chronod[703:89e531] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:20:40.862 Df chronod[703:89e531] [com.apple.chrono:descriptor] Queuing extension added events: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:20:40.862 E  chronod[703:89e531] [com.apple.chrono:descriptor] Requested to add extension, but purging instead because we shouldn't cache it: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 2, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false> - isApple? false
+2026-11-01 15:20:40.862 Df chronod[703:89e531] [com.apple.chrono:descriptor] Purging descriptors for extensions: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:20:40.864 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:20:40.864 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:20:40.864 Df chronod[703:89e531] [com.apple.chrono:database] Clearing descriptor cache for local.sony-rev.control.widget
+2026-11-01 15:20:40.868 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:05.675 Df chronod[703:89dddf] [com.apple.chrono:extensions] Unchanged extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 2, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>
+2026-11-01 15:21:05.675 Df chronod[703:89dddf] [com.apple.chrono:extensions] Updated extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, now with pluginUUID 639639DA-3A55-458C-A951-D4549902A4B2, (was BF02568C-A9E4-4DBB-A89C-366F2B751A20)
+2026-11-01 15:21:05.676 Df chronod[703:89e77c] [com.apple.chrono:extensions-verbose] Updated extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:21:05.679 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:05.681 Df chronod[703:89dddf] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:21:05.681 Df chronod[703:89dddf] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:21:05.682 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:05.682 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:21:05.682 Df chronod[703:89dddf] [com.apple.chrono:descriptor] Queuing extension added events: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:21:05.682 E  chronod[703:89dddf] [com.apple.chrono:descriptor] Requested to add extension, but purging instead because we shouldn't cache it: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false> - isApple? false
+2026-11-01 15:21:05.682 Df chronod[703:89dddf] [com.apple.chrono:descriptor] Purging descriptors for extensions: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:21:05.682 Df chronod[703:89dddf] [com.apple.chrono:database] Clearing descriptor cache for local.sony-rev.control.widget
+2026-11-01 15:21:05.863 Df launchd[1:89e71d] [system:] remove all extension instances: caller = pkd.50354, extension = local.sony-rev.control.widget
+2026-11-01 15:21:05.866 Df launchd[1:89e71d] [system:] total of 0 extension (local.sony-rev.control.widget) instances were found to remove, of which 0 were removed instantly
+2026-11-01 15:21:06.217 Df chronod[703:89e77c] [com.apple.chrono:extensions] Updated extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 2, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, now with pluginUUID BF02568C-A9E4-4DBB-A89C-366F2B751A20, (was 639639DA-3A55-458C-A951-D4549902A4B2)
+2026-11-01 15:21:06.217 Df chronod[703:89e77c] [com.apple.chrono:extensions] Updated extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, now with pluginUUID 477994EF-EDB2-4BBA-8423-1C17E120B5A9, (was 639639DA-3A55-458C-A951-D4549902A4B2)
+2026-11-01 15:21:06.218 Df chronod[703:89dddf] [com.apple.chrono:extensions-verbose] Updated extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 2, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:21:06.218 Df chronod[703:89e77c] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:21:06.218 Df chronod[703:89e77c] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:21:06.218 Df chronod[703:89e77c] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:21:06.218 Df chronod[703:89e77c] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:21:06.218 Df chronod[703:89e77c] [com.apple.chrono:descriptor] Queuing extension added events: local.sony-rev.control::local.sony-rev.control.widget, local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:21:06.218 E  chronod[703:89e77c] [com.apple.chrono:descriptor] Requested to add extension, but purging instead because we shouldn't cache it: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false> - isApple? false
+2026-11-01 15:21:06.218 Df chronod[703:89e77c] [com.apple.chrono:descriptor] Purging descriptors for extensions: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:21:06.220 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:06.220 Df chronod[703:89e77c] [com.apple.chrono:database] Clearing descriptor cache for local.sony-rev.control.widget
+2026-11-01 15:21:06.223 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:06.223 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:06.223 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:21:06.223 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:21:06.223 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:23:58.153 Df launchd[1:89f41b] [system:] remove all extension instances: caller = pkd.50354, extension = local.sony-rev.control.widget
+2026-11-01 15:23:58.153 Df launchd[1:89f41b] [system:] total of 0 extension (local.sony-rev.control.widget) instances were found to remove, of which 0 were removed instantly
+2026-11-01 15:23:58.178 Df launchd[1:89f524] [system:] remove all extension instances: caller = pkd.50354, extension = local.sony-rev.control.widget
+2026-11-01 15:23:58.178 Df launchd[1:89f524] [system:] total of 0 extension (local.sony-rev.control.widget) instances were found to remove, of which 0 were removed instantly
+2026-11-01 15:23:58.208 Df launchd[1:89f41b] [system:] remove all extension instances: caller = pkd.50354, extension = local.sony-rev.control.widget
+2026-11-01 15:23:58.208 Df launchd[1:89f41b] [system:] total of 0 extension (local.sony-rev.control.widget) instances were found to remove, of which 0 were removed instantly
+2026-11-01 15:23:58.521 Df chronod[703:89f357] [com.apple.chrono:extensions] Updated extension: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>, now with pluginUUID F1C5D53D-390F-4DCA-9A2A-7FDF7EDF2C17, (was 477994EF-EDB2-4BBA-8423-1C17E120B5A9)
+2026-11-01 15:23:58.522 Df chronod[703:89ee76] [com.apple.chrono:extensions-verbose] Updated extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:23:58.523 Df chronod[703:89f360] [com.apple.chrono:stateCapture] [state-capture] StateCaptureEntry created with title: Descriptors[local.sony-rev.control.widget]
+2026-11-01 15:23:58.523 Df chronod[703:89f360] [com.apple.chrono:stateCapture] [state-capture] added StateCaptureItem with title: Descriptors[local.sony-rev.control.widget], identifier: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:23:58.523 Df chronod[703:89f360] [com.apple.chrono:descriptor] Queuing extension added events: local.sony-rev.control::local.sony-rev.control.widget
+2026-11-01 15:23:58.523 E  chronod[703:89f360] [com.apple.chrono:descriptor] Requested to add extension, but purging instead because we shouldn't cache it: <WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false> - isApple? false
+2026-11-01 15:23:58.523 Df chronod[703:89f360] [com.apple.chrono:descriptor] Purging descriptors for extensions: [local.sony-rev.control::local.sony-rev.control.widget]
+2026-11-01 15:23:58.531 Df chronod[703:89f360] [com.apple.chrono:database] Clearing descriptor cache for local.sony-rev.control.widget
+2026-11-01 15:23:58.531 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:23:58.539 E  chronod[703:16c2] [com.apple.chrono:reloadService] Error setting last requested reload date for key: <_ReloadStateKey: extensionBundleIdentifier=local.sony-rev.control.widget, kind=all>: Error Domain=com.apple.baseboard.bssqlite Code=19 "constraint failed" UserInfo={NSLocalizedDescription=constraint failed, NSLocalizedFailureReason=FOREIGN KEY constraint failed}
+2026-11-01 15:23:58.539 Df chronod[703:16c2] [com.apple.chrono:timeline] Reload requested for local.sony-rev.control::local.sony-rev.control.widget as budgeted: false for reason: extensionChanged
+2026-11-01 15:24:45.564 Df chronod[703:89fa96] [com.apple.chrono:descriptor] Reloading descriptors for reason: "host requested: NotificationCenter" with extensions: [<WidgetExtension - identifier: local.sony-rev.control::local.sony-rev.control.widget, version: 3, containerVersion: 3, lastModifiedDate: 1970-01-01T05:30:00+05:30 isApple: false>]
+2026-11-01 15:24:45.571 Df chronod[703:89f7be] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] scheduling query
+2026-11-01 15:24:45.572 Df chronod[703:89faaf] [com.apple.chrono:preferences] Preferences[com.apple.chronod]: extensionsPendingDescriptorRefetch preference changed to ["Ƭ\134u{02}\134u{16}\134u{1D}::local.sony-rev.control::local.sony-rev.control.widget"] [default=[]]
+2026-11-01 15:24:45.572 Df chronod[703:89f7be] [com.apple.chrono:taskservice] [73243716]: task submitted descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.573 Df chronod[703:89f7be] [com.apple.chrono:taskservice] [73243716]: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716 overridden for budget exempt reason: free
+2026-11-01 15:24:45.586 Df chronod[703:89fa96] [com.apple.chrono:taskservice] Add pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.588 Df chronod[703:89fa96] [com.apple.chrono:taskservice] Popped next task of 1: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716 from backgroundOpportunistic
+2026-11-01 15:24:45.588 Df chronod[703:89fa96] [com.apple.chrono:taskservice] Remove pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.589 Df chronod[703:89fa96] [com.apple.chrono:taskservice] [73243716]: starting pended task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716; pendingTasks.count = 0
+2026-11-01 15:24:45.589 Df chronod[703:89f7be] [com.apple.chrono:tasksession] [73243716]: start() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.589 Df chronod[703:89f7be] [com.apple.chrono:tasksession] [73243716]: _taskQueue_setup() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.599 Df chronod[703:89f7be] [com.apple.chrono:session] Overriding assertion attributes in sync launch case: local.sony-rev.control.widget
+2026-11-01 15:24:45.652 Df chronod[703:89f7be] [com.apple.extensionkit:launch] Launching process with config: identity: RecordIdentity(record: ExtensionFoundation.Database._ExtensionRecord(lsRecord: <LSApplicationExtensionRecord 0x79f5aa1080> { bundleID: local.sony-rev.control.widget, URL: file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/, super: <LSApplicationExtensionRecord 0x79f5aa1080> { table: 24, unit: 13cc, attached: yes } })) instance: _InstanceIdentifier(_id: Optional(55B67C0C-0164-49A3-91B8-B86A412C6689))
+2026-11-01 15:24:45.669 Df runningboardd[408:89f9a5] [com.apple.runningboard:general] Launch request for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689][0] is using uid 501 (divined from auid 501 euid 501)
+2026-11-01 15:24:45.669 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] Acquiring assertion targeting extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689] from originator [osservice<com.apple.chronod(501)>:703] with description <RBSAssertionDescriptor| "RBSLaunchRequest for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]" ID:408-703-604373 target:extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689] attributes:[
+	<RBSDomainAttribute| domain:"com.apple.chronod" name:"WidgetExtensionRun-QOS-UserInitiated" sourceEnvironment:"(null)">
+	]>
+2026-11-01 15:24:45.669 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] Assertion 408-703-604373 (target:extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]) will be created as active
+2026-11-01 15:24:45.670 Df runningboardd[408:89f9a5] [com.apple.runningboard:job] Creating and launching job for: extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]
+2026-11-01 15:24:45.670 Df runningboardd[408:89f363] [com.apple.runningboard:job_oversize] '55B67C0C-0164-49A3-91B8-B86A412C6689' Submitting extension job properties (host PID 703, path file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/Contents/MacOS/SonyControlWidget):
+<_EXLaunchdJobProperties: 0x7c80f73f00> XPC overlay:
+ <OS_xpc_dictionary: <dictionary: 0x7c817adc80> { count = 2, transaction: 0, voucher = 0x0, contents =
+	"XPCService" => <dictionary: 0x7c8137afa0> { count = 17, transaction: 0, voucher = 0x0, contents =
+		"RunLoopType" => <string: 0x7c80f7be70> { string cache = 0x0, length = 9, contents = "NSRunLoop" }
+		"Platform" => <int64: 0xa4600f76dbf74e0f>: 1
+		"_ManagedBy" => <string: 0x7c80f79350> { string cache = 0x0, length = 22, contents = "com.apple.runningboard" }
+		"JoinExistingSession" => <bool: 0x1ecb048b0>: true
+		"_SandboxProfile" => <string: 0x7c80f7bcf0> { string cache = 0x0, length = 11, contents = "application" }
+		"_LaunchWatchdogTimeOut" => <int64: 0xa4600f76dbf74e07>: 0
+		"_AdditionalSubServices" => <dictionary: 0x7c8185f180> { count = 1, transaction: 0, voucher = 0x0, contents =
+			"xpc-session" => <bool: 0x1ecb048b0>: true
+		}
+		"_ProcessType" => <string: 0x7c80f7b150> { string cache = 0x0, length = 8, contents = "AppNonUI" }
+		"EnvironmentVariables" => <dictionary: 0x7c815fb7e0> { count = 1, transaction: 0, voucher = 0x0, contents =
+			"BSServiceDomains" => <string: 0x7c80f7b630> { string cache = 0x0, length = 46, contents = "{"XPCService":{"Services":{"MainService":{}}}}" }
+		}
+		"_AdditionalProperties" => <dictionary: 0x7c8137a9a0> { count = 3, transaction: 0, voucher = 0x0, contents =
+			"ExtensionKit" => <dictionary: 0x7c815f8240> { count = 1, transaction: 0, voucher = 0x0, contents =
+				"SandboxProfile" => <string: 0x7c80f522e0> { string cache = 0x0, length = 11, contents = "application" }
+			}
+			"RunningBoard" => <dictionary: 0x7c815fb4e0> { count = 5, transaction: 0, voucher = 0x0, contents =
+				"ClientRestriction" => <data: 0x7c816b2a00>: { length = 598 bytes, contents = 0x62706c6973743030d4010203040506070a58247665727369... }
+				"Managed" => <bool: 0x1ecb048b0>: true
+				"RunningBoardLaunchedIdentity" => <data: 0x7c816b2080>: { length = 1022 bytes, contents = 0x62706c6973743030d4010203040506070a58247665727369... }
+				"LaunchRequestEndpointIdentifiers" => <dictionary: 0x7c815fb180> { count = 2, transaction: 0, voucher = 0x0, contents =
+					"local.sony-rev.control.widget" => <bool: 0x1ecb048b0>: true
+					"local.sony-rev.control.widget.xpc-session" => <bool: 0x1ecb048b0>: true
+				}
+				"RunningBoardLaunched" => <bool: 0x1ecb048b0>: true
+			}
+			"BoardServices" => <dictionary: 0x7c815fa6a0> { count = 1, transaction: 0, voucher = 0x0, contents =
+				"BSServiceDomains" => <dictionary: 0x7c815f8f00> { count = 1, transaction: 0, voucher = 0x0, contents =
+					"XPCService" => <dictionary: 0x7c815f91a0> { count = 1, transaction: 0, voucher = 0x0, contents =
+						"Services" => <dictionary: 0x7c815f8ea0> { count = 1, transaction: 0, voucher = 0x0, contents =
+							"MainService" => <dictionary: 0x7c815f9080> { count = 0, transaction: 0, voucher = 0x0, contents =
+							}
+						}
+					}
+				}
+			}
+		}
+		"_OmitSandboxParameters" => <bool: 0x1ecb048b0>: true
+		"_AbandonCoalition" => <bool: 0x1ecb048b0>: true
+		"_MultipleInstances" => <bool: 0x1ecb048b0>: true
+		"ServiceType" => <string: 0x7c80f7a850> { string cache = 0x0, length = 11, contents = "Application" }
+		"ProgramArguments" => <array: 0x7c80f78060> { count = 5, capacity = 10, contents =
+			0: <string: 0x7c80f7ad90> { string cache = 0x0, length = 120, contents = "/Users/theashgen/Applications/Sony Control.app/Contents/PlugIns/SonyControlWidget.appex/Contents/MacOS/SonyControlWidget" }
+			1: <string: 0x7c80f7a1c0> { string cache = 0x0, length = 17, contents = "-BSServiceDomains" }
+			2: <string: 0x7c80f7a070> { string cache = 0x0, length = 46, contents = "{"XPCService":{"Services":{"MainService":{}}}}" }
+			3: <string: 0x7c80f7af70> { string cache = 0x0, length = 16, contents = "-LaunchArguments" }
+			4: <string: 0x7c80f79da0> { string cache = 0x0, length = 108, contents = "eyJzZXJ2aWNlTmFtZSI6ImxvY2FsLnNvbnktcmV2LmNvbnRyb2wud2lkZ2V0IiwidHlwZSI6MSwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9" }
+		}
+		"_SandboxContainer" => <string: 0x7c80f79c80> { string cache = 0x0, length = 71, contents = "/private/var/root/Library/Containers/local.sony-rev.control.widget/Data" }
+		"_ManagedBy_Services" => <array: 0x7c80f510b0> { count = 2, capacity = 10, contents =
+			0: <string: 0x7c80f50270> { string cache = 0x0, length = 29, contents = "local.sony-rev.control.widget" }
+			1: <string: 0x7c80f517a0> { string cache = 0x0, length = 41, contents = "local.sony-rev.control.widget.xpc-session" }
+		}
+	}
+	"CFBundlePackageType" => <string: 0x7c80f78240> { string cache = 0x0, length = 4, contents = "XPC!" }
+}>
+2026-11-01 15:24:45.671 Df launchd[1:89fa9b] [pid/703/local.sony-rev.control.widget:] draining messages from local.sony-rev.control.widget.xpc-session
+2026-11-01 15:24:45.679 Df kernel[0:89fabc] (AppleMobileFileIntegrity) AMFI: [non-fatal] unable to accelerate context: local.sony-rev.control.widget | 65285
+2026-11-01 15:24:45.680 Df runningboardd[408:89f9a5] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] Memory Limits: active 1000 inactive 1000
+ <private>
+2026-11-01 15:24:45.680 Df runningboardd[408:89f9a5] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] This process will be managed.
+2026-11-01 15:24:45.680 E  runningboardd[408:89f9a5] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] Memorystatus failed with unexpected error: Invalid argument (22)
+2026-11-01 15:24:45.680 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] Now tracking process: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]
+2026-11-01 15:24:45.680 Df runningboardd[408:89f673] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: running-suspended (role: None) (endowments: (null))
+2026-11-01 15:24:45.680 Df runningboardd[408:89f363] [com.apple.runningboard:general] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] reported to RB as running
+2026-11-01 15:24:45.680 Df WindowServer[403:89f382] [com.apple.runningboard:process] Hit the server for a process handle 11c839a40001413c that resolved to: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]
+2026-11-01 15:24:45.680 Df WindowServer[403:89f382] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-suspended-NotVisible
+2026-11-01 15:24:45.680 Df gamepolicyd[512:89f35d] [com.apple.runningboard:process] Hit the server for a process handle 11c839a40001413c that resolved to: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]
+2026-11-01 15:24:45.680 Df gamepolicyd[512:89f35d] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-suspended-NotVisible
+2026-11-01 15:24:45.681 Df UIKitSystem[92872:89f611] [com.apple.runningboard:process] Hit the server for a process handle 11c839a40001413c that resolved to: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]
+2026-11-01 15:24:45.681 Df UIKitSystem[92872:89f611] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-suspended-NotVisible
+2026-11-01 15:24:45.681 Df chronod[703:89f7be] [com.apple.chrono:session] [local.sony-rev.control.widget-2B0BBFE7-C159-4E7A-9487-97199873A648] Created a new WidgetExtensionSession at user interactive priority.
+2026-11-01 15:24:45.682 Df runningboardd[408:89f9a3] [com.apple.runningboard:ttl] Acquiring assertion targeting [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] from originator [osservice<com.apple.chronod(501)>:703] with description <RBSAssertionDescriptor| "[control.widget-97199873A648]" ID:408-703-604374 target:82236 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.chronod" name:"WidgetExtensionRun-QOS-UserInitiated" sourceEnvironment:"(null)">
+	]>
+2026-11-01 15:24:45.682 Df runningboardd[408:89f9a3] [com.apple.runningboard:ttl] Assertion 408-703-604374 (target:[extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]) will be created as active
+2026-11-01 15:24:45.682 Df runningboardd[408:89f363] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] Set jetsam priority to 40 [0] flag[1]
+2026-11-01 15:24:45.682 Df runningboardd[408:89f363] [com.apple.runningboard:ttl] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] Resuming task.
+2026-11-01 15:24:45.682 Df runningboardd[408:89f363] [com.apple.runningboard:ttl] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] Set darwin role to: UserInitiated
+2026-11-01 15:24:45.682 Df runningboardd[408:89f363] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] set Memory Limits to Soft Inactive (1000)
+2026-11-01 15:24:45.682 Df runningboardd[408:89f9a3] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: running-active (role: UserInitiated) (endowments: (null))
+2026-11-01 15:24:45.682 Df chronod[703:89f7be] [com.apple.chrono:keepalive] Added: <Task 8023BE5A-DC97-4F47-9396-90E73409E0BD: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:24:45.682 Df chronod[703:89f7be] [com.apple.chrono:tasksession] [73243716]: _taskQueue_execute() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.682 Df chronod[703:89f7be] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] performing query - reason: host requested: NotificationCenter
+2026-11-01 15:24:45.683 Df chronod[703:89f7be] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] started tracking
+2026-11-01 15:24:45.683 Df chronod[703:89f7be] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] updated with wantsLocation=false container=local.sony-rev.control
+2026-11-01 15:24:45.684 Df WindowServer[403:89f4bb] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-active-NotVisible
+2026-11-01 15:24:45.684 Df gamepolicyd[512:89f39e] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-active-NotVisible
+2026-11-01 15:24:45.684 Df UIKitSystem[92872:89fa9c] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-active-NotVisible
+2026-11-01 15:24:45.727 Df secinitd[70483:89f389] (AppSandbox) initializing owners for container ~/Library/Containers/local.sony-rev.control.widget/Data with <<local.sony-rev.control.widget; signer:none>>
+2026-11-01 15:24:45.843 Df chronod[703:89fac9] [com.apple.chrono:taskservice] Would pop task, but all extensions are busy, namely [local.sony-rev.control::local.sony-rev.control.widget, com.apple.iCal::com.apple.iCal.CalendarWidgetExtension]
+2026-11-01 15:24:45.863 Df launchd[1:89fab5] [pid/703 [chronod]:] service inactive: local.sony-rev.control.widget.55B67C0C-0164-49A3-91B8-B86A412C6689
+2026-11-01 15:24:45.863 Df runningboardd[408:89f9a4] [com.apple.runningboard:ttl] Acquiring assertion targeting [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] from originator [osservice<com.apple.chronod(501)>:703] with description <RBSAssertionDescriptor| "[control.widget-97199873A648]" ID:408-703-604377 target:82236 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.chronod" name:"WaitForWidgetSuspension" sourceEnvironment:"(null)">
+	]>
+2026-11-01 15:24:45.863 Df runningboardd[408:89f9a4] [com.apple.runningboard:ttl] Assertion 408-703-604377 (target:[extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]) will be created as active
+2026-11-01 15:24:45.863 Df runningboardd[408:89f9a4] [com.apple.runningboard:ttl] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236] termination reported by launchd (2, 5, 5)
+2026-11-01 15:24:45.863 Df runningboardd[408:89f9a4] [com.apple.runningboard:process] Removing process: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]
+2026-11-01 15:24:45.863 Df runningboardd[408:89f9a3] [com.apple.runningboard:ttl] Invalidating assertion 408-703-604374 (target:[extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]) from originator [osservice<com.apple.chronod(501)>:703]
+2026-11-01 15:24:45.863 Df runningboardd[408:89f9a3] [com.apple.runningboard:ttl] Invalidating assertion 408-703-604373 (target:extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]) from originator [osservice<com.apple.chronod(501)>:703]
+2026-11-01 15:24:45.863 Df chronod[703:89faca] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] stopped tracking
+2026-11-01 15:24:45.863 Df chronod[703:89faca] [com.apple.chrono:session] Connection to extension process was invalidated: local.sony-rev.control.widget
+2026-11-01 15:24:45.863 Df chronod[703:89faca] [com.apple.chrono:keepalive] Removed: <Task 8023BE5A-DC97-4F47-9396-90E73409E0BD: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:24:45.864 Df chronod[703:89faca] [com.apple.chrono:tasksession] [73243716]: _taskQueue_evaluate() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.864 Df chronod[703:89faca] [com.apple.chrono:tasksession] [73243716]: _taskQueue_teardown() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.864 Df chronod[703:89faca] [com.apple.chrono:tasksession] [73243716]: _taskQueue_complete() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.73243716
+2026-11-01 15:24:45.864 Df runningboardd[408:89f673] [com.apple.runningboard:ttl] Attempting to rename power assertion 37701 for target extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689] to extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689];408-703-604374:[control.widget-97199873A648];408-703-604377:[control.widget-97199873A648]
+2026-11-01 15:24:45.864 E  chronod[703:89faca] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] query failed - retrying in 3 seconds (1 attempts remaining): Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service with pid -1 named (null) was invalidated." UserInfo={NSDebugDescription=The connection to service with pid -1 named (null) was invalidated.}
+2026-11-01 15:24:45.864 Df runningboardd[408:89f9a4] [com.apple.runningboard:process] Removing assertions for terminated process: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236]
+2026-11-01 15:24:45.864 Df runningboardd[408:89f9a4] [com.apple.runningboard:assertion] Removed last relative-start-date-defining assertion for process extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]
+2026-11-01 15:24:45.864 Df runningboardd[408:89f363] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: none (role: UserInitiated) (endowments: (null))
+2026-11-01 15:24:45.865 Df WindowServer[403:89f4bb] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:45.865 Df UIKitSystem[92872:89f611] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:45.865 Df gamepolicyd[512:89f39e] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:45.866 Df runningboardd[408:89f9a4] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: none (role: None) (endowments: (null))
+2026-11-01 15:24:45.866 Df runningboardd[408:89f9a4] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: none (role: None) (endowments: (null))
+2026-11-01 15:24:45.866 Df UIKitSystem[92872:89fa9c] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:45.866 Df WindowServer[403:89f4bb] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:45.866 Df gamepolicyd[512:89f35d] [com.apple.runningboard:monitor] Received state update for 82236 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:45.867 Df chronod[703:89faca] [com.apple.chrono:session] Connection to extension process was interrupted: local.sony-rev.control.widget
+2026-11-01 15:24:45.920 E  runningboardd[408:89f9a4] [com.apple.runningboard:general] RBSStateCapture remove item called for untracked item 408-703-604374 (target:[extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82236])
+2026-11-01 15:24:45.920 E  runningboardd[408:89f9a4] [com.apple.runningboard:general] RBSStateCapture remove item called for untracked item 408-703-604373 (target:extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689])
+2026-11-01 15:24:47.814 Df ReportCrashService[82237:89fae6] loadStoreInfo [platform 1] local.sony-rev.control.widget from file:///Users/theashgen/Applications/Sony%20Control.app/
+2026-11-01 15:24:47.817 Df ReportCrashService[82237:89fae6] extension check: bundleID=local.sony-rev.control.widget, teamID=, task=9987, featureEnabled=1
+2026-11-01 15:24:48.450 Df ReportCrashService[82237:89fae6] local.sony-rev.control.widget is not a MetricKit client
+2026-11-01 15:24:48.455 Df kernel[0:89fae6] (Sandbox) Sandbox: ReportCrashService(82237) allow file-write-create /Users/theashgen/Library/Containers/local.sony-rev.control.widget/Data/Library/Application Support/CrashReporter
+2026-11-01 15:24:48.999 Df chronod[703:89fa96] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] scheduling query
+2026-11-01 15:24:48.999 Df chronod[703:89fa96] [com.apple.chrono:taskservice] [4E96B74E]: task submitted descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:48.999 Df chronod[703:89fa96] [com.apple.chrono:taskservice] [4E96B74E]: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E overridden for budget exempt reason: free
+2026-11-01 15:24:49.001 Df chronod[703:89faaf] [com.apple.chrono:taskservice] Add pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.001 Df chronod[703:89faaf] [com.apple.chrono:taskservice] Popped next task of 1: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E from backgroundOpportunistic
+2026-11-01 15:24:49.001 Df chronod[703:89faaf] [com.apple.chrono:taskservice] Remove pending task: descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.001 Df chronod[703:89faaf] [com.apple.chrono:taskservice] [4E96B74E]: starting pended task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E; pendingTasks.count = 0
+2026-11-01 15:24:49.001 Df chronod[703:89faca] [com.apple.chrono:tasksession] [4E96B74E]: start() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.001 Df chronod[703:89faca] [com.apple.chrono:tasksession] [4E96B74E]: _taskQueue_setup() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.002 Df chronod[703:89faca] [com.apple.chrono:session] Overriding assertion attributes in sync launch case: local.sony-rev.control.widget
+2026-11-01 15:24:49.003 Df chronod[703:89faca] [com.apple.extensionkit:launch] Launching process with config: identity: RecordIdentity(record: ExtensionFoundation.Database._ExtensionRecord(lsRecord: <LSApplicationExtensionRecord 0x79f5aa3420> { bundleID: local.sony-rev.control.widget, URL: file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/, super: <LSApplicationExtensionRecord 0x79f5aa3420> { table: 24, unit: 13cc, attached: yes } })) instance: _InstanceIdentifier(_id: Optional(55B67C0C-0164-49A3-91B8-B86A412C6689))
+2026-11-01 15:24:49.005 Df runningboardd[408:89f9a5] [com.apple.runningboard:general] Launch request for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689][0] is using uid 501 (divined from auid 501 euid 501)
+2026-11-01 15:24:49.005 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] Acquiring assertion targeting extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689] from originator [osservice<com.apple.chronod(501)>:703] with description <RBSAssertionDescriptor| "RBSLaunchRequest for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]" ID:408-703-604387 target:extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689] attributes:[
+	<RBSDomainAttribute| domain:"com.apple.chronod" name:"WidgetExtensionRun-QOS-UserInitiated" sourceEnvironment:"(null)">
+	]>
+2026-11-01 15:24:49.005 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] Assertion 408-703-604387 (target:extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]) will be created as active
+2026-11-01 15:24:49.006 Df runningboardd[408:89f9a3] [com.apple.runningboard:job] Creating and launching job for: extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]
+2026-11-01 15:24:49.006 Df runningboardd[408:89f673] [com.apple.runningboard:job_oversize] '55B67C0C-0164-49A3-91B8-B86A412C6689' Submitting extension job properties (host PID 703, path file:///Users/theashgen/Applications/Sony%20Control.app/Contents/PlugIns/SonyControlWidget.appex/Contents/MacOS/SonyControlWidget):
+<_EXLaunchdJobProperties: 0x7c80fd82a0> XPC overlay:
+ <OS_xpc_dictionary: <dictionary: 0x7c81474240> { count = 2, transaction: 0, voucher = 0x0, contents =
+	"XPCService" => <dictionary: 0x7c818470c0> { count = 17, transaction: 0, voucher = 0x0, contents =
+		"RunLoopType" => <string: 0x7c80f79da0> { string cache = 0x0, length = 9, contents = "NSRunLoop" }
+		"Platform" => <int64: 0xa4600f76dbf74e0f>: 1
+		"_ManagedBy" => <string: 0x7c80f79350> { string cache = 0x0, length = 22, contents = "com.apple.runningboard" }
+		"JoinExistingSession" => <bool: 0x1ecb048b0>: true
+		"_SandboxProfile" => <string: 0x7c80f7a1c0> { string cache = 0x0, length = 11, contents = "application" }
+		"_LaunchWatchdogTimeOut" => <int64: 0xa4600f76dbf74e07>: 0
+		"_AdditionalSubServices" => <dictionary: 0x7c815896e0> { count = 1, transaction: 0, voucher = 0x0, contents =
+			"xpc-session" => <bool: 0x1ecb048b0>: true
+		}
+		"_ProcessType" => <string: 0x7c80f7a130> { string cache = 0x0, length = 8, contents = "AppNonUI" }
+		"EnvironmentVariables" => <dictionary: 0x7c81589fe0> { count = 1, transaction: 0, voucher = 0x0, contents =
+			"BSServiceDomains" => <string: 0x7c804e9c50> { string cache = 0x0, length = 46, contents = "{"XPCService":{"Services":{"MainService":{}}}}" }
+		}
+		"_AdditionalProperties" => <dictionary: 0x7c81844240> { count = 3, transaction: 0, voucher = 0x0, contents =
+			"ExtensionKit" => <dictionary: 0x7c81589da0> { count = 1, transaction: 0, voucher = 0x0, contents =
+				"SandboxProfile" => <string: 0x7c804ebb10> { string cache = 0x0, length = 11, contents = "application" }
+			}
+			"RunningBoard" => <dictionary: 0x7c8158b060> { count = 5, transaction: 0, voucher = 0x0, contents =
+				"ClientRestriction" => <data: 0x7c818f6c40>: { length = 598 bytes, contents = 0x62706c6973743030d4010203040506070a58247665727369... }
+				"Managed" => <bool: 0x1ecb048b0>: true
+				"RunningBoardLaunchedIdentity" => <data: 0x7c818f7cc0>: { length = 1022 bytes, contents = 0x62706c6973743030d4010203040506070a58247665727369... }
+				"LaunchRequestEndpointIdentifiers" => <dictionary: 0x7c81589200> { count = 2, transaction: 0, voucher = 0x0, contents =
+					"local.sony-rev.control.widget" => <bool: 0x1ecb048b0>: true
+					"local.sony-rev.control.widget.xpc-session" => <bool: 0x1ecb048b0>: true
+				}
+				"RunningBoardLaunched" => <bool: 0x1ecb048b0>: true
+			}
+			"BoardServices" => <dictionary: 0x7c818476c0> { count = 1, transaction: 0, voucher = 0x0, contents =
+				"BSServiceDomains" => <dictionary: 0x7c818469a0> { count = 1, transaction: 0, voucher = 0x0, contents =
+					"XPCService" => <dictionary: 0x7c81846d00> { count = 1, transaction: 0, voucher = 0x0, contents =
+						"Services" => <dictionary: 0x7c81484840> { count = 1, transaction: 0, voucher = 0x0, contents =
+							"MainService" => <dictionary: 0x7c81404b40> { count = 0, transaction: 0, voucher = 0x0, contents =
+							}
+						}
+					}
+				}
+			}
+		}
+		"_OmitSandboxParameters" => <bool: 0x1ecb048b0>: true
+		"_AbandonCoalition" => <bool: 0x1ecb048b0>: true
+		"_MultipleInstances" => <bool: 0x1ecb048b0>: true
+		"ServiceType" => <string: 0x7c80f78060> { string cache = 0x0, length = 11, contents = "Application" }
+		"ProgramArguments" => <array: 0x7c80f7be70> { count = 5, capacity = 10, contents =
+			0: <string: 0x7c80f7b150> { string cache = 0x0, length = 120, contents = "/Users/theashgen/Applications/Sony Control.app/Contents/PlugIns/SonyControlWidget.appex/Contents/MacOS/SonyControlWidget" }
+			1: <string: 0x7c80f78bd0> { string cache = 0x0, length = 17, contents = "-BSServiceDomains" }
+			2: <string: 0x7c80f7b630> { string cache = 0x0, length = 46, contents = "{"XPCService":{"Services":{"MainService":{}}}}" }
+			3: <string: 0x7c80f785a0> { string cache = 0x0, length = 16, contents = "-LaunchArguments" }
+			4: <string: 0x7c80f79020> { string cache = 0x0, length = 108, contents = "eyJzZXJ2aWNlTmFtZSI6ImxvY2FsLnNvbnktcmV2LmNvbnRyb2wud2lkZ2V0IiwidHlwZSI6MSwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9" }
+		}
+		"_SandboxContainer" => <string: 0x7c804ea370> { string cache = 0x0, length = 71, contents = "/private/var/root/Library/Containers/local.sony-rev.control.widget/Data" }
+		"_ManagedBy_Services" => <array: 0x7c804e8630> { count = 2, capacity = 10, contents =
+			0: <string: 0x7c804ea610> { string cache = 0x0, length = 29, contents = "local.sony-rev.control.widget" }
+			1: <string: 0x7c804ea0d0> { string cache = 0x0, length = 41, contents = "local.sony-rev.control.widget.xpc-session" }
+		}
+	}
+	"CFBundlePackageType" => <string: 0x7c80f79320> { string cache = 0x0, length = 4, contents = "XPC!" }
+}>
+2026-11-01 15:24:49.015 Df runningboardd[408:89f9a3] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] Memory Limits: active 1000 inactive 1000
+ <private>
+2026-11-01 15:24:49.015 Df runningboardd[408:89f9a3] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] This process will be managed.
+2026-11-01 15:24:49.015 E  runningboardd[408:89f9a3] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] Memorystatus failed with unexpected error: Invalid argument (22)
+2026-11-01 15:24:49.015 Df runningboardd[408:89f9a3] [com.apple.runningboard:ttl] Now tracking process: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]
+2026-11-01 15:24:49.015 Df runningboardd[408:89fae4] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: running-suspended (role: None) (endowments: (null))
+2026-11-01 15:24:49.015 Df runningboardd[408:89f363] [com.apple.runningboard:general] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] reported to RB as running
+2026-11-01 15:24:49.015 Df WindowServer[403:89f382] [com.apple.runningboard:process] Hit the server for a process handle 2c4a18a00014142 that resolved to: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]
+2026-11-01 15:24:49.015 Df WindowServer[403:89f382] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-suspended-NotVisible
+2026-11-01 15:24:49.016 Df chronod[703:89faca] [com.apple.chrono:session] [local.sony-rev.control.widget-58DAE8A4-3DED-4F69-A1F0-3D131F556539] Created a new WidgetExtensionSession at user interactive priority.
+2026-11-01 15:24:49.016 Df runningboardd[408:89f363] [com.apple.runningboard:ttl] Acquiring assertion targeting [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] from originator [osservice<com.apple.chronod(501)>:703] with description <RBSAssertionDescriptor| "[control.widget-3D131F556539]" ID:408-703-604389 target:82242 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.chronod" name:"WidgetExtensionRun-QOS-UserInitiated" sourceEnvironment:"(null)">
+	]>
+2026-11-01 15:24:49.016 Df runningboardd[408:89f363] [com.apple.runningboard:ttl] Assertion 408-703-604389 (target:[extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]) will be created as active
+2026-11-01 15:24:49.016 Df UIKitSystem[92872:89f611] [com.apple.runningboard:process] Hit the server for a process handle 2c4a18a00014142 that resolved to: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]
+2026-11-01 15:24:49.016 Df chronod[703:89faca] [com.apple.chrono:keepalive] Added: <Task A10151AC-BA3D-42F8-A483-6160DFFC1E84: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:24:49.016 Df chronod[703:89faca] [com.apple.chrono:tasksession] [4E96B74E]: _taskQueue_execute() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.016 Df chronod[703:89faca] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] performing query - reason: delayed retry from failure
+2026-11-01 15:24:49.016 Df UIKitSystem[92872:89f611] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-suspended-NotVisible
+2026-11-01 15:24:49.016 Df runningboardd[408:89f9a5] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] Set jetsam priority to 40 [0] flag[1]
+2026-11-01 15:24:49.016 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] Resuming task.
+2026-11-01 15:24:49.016 Df runningboardd[408:89f9a5] [com.apple.runningboard:ttl] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] Set darwin role to: UserInitiated
+2026-11-01 15:24:49.016 Df chronod[703:89faca] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] started tracking
+2026-11-01 15:24:49.016 Df chronod[703:89faca] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] updated with wantsLocation=false container=local.sony-rev.control
+2026-11-01 15:24:49.016 Df runningboardd[408:89f9a5] [com.apple.runningboard:process] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] set Memory Limits to Soft Inactive (1000)
+2026-11-01 15:24:49.016 Df runningboardd[408:89f363] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: running-active (role: UserInitiated) (endowments: (null))
+2026-11-01 15:24:49.016 Df gamepolicyd[512:89f9a7] [com.apple.runningboard:process] Hit the server for a process handle 2c4a18a00014142 that resolved to: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]
+2026-11-01 15:24:49.016 Df gamepolicyd[512:89f9a7] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-suspended-NotVisible
+2026-11-01 15:24:49.016 Df WindowServer[403:89f382] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-active-NotVisible
+2026-11-01 15:24:49.017 Df UIKitSystem[92872:89fa9c] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-active-NotVisible
+2026-11-01 15:24:49.017 Df gamepolicyd[512:89f39e] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], running-active-NotVisible
+2026-11-01 15:24:49.039 Df launchd[1:89fa9b] [pid/703 [chronod]:] service inactive: local.sony-rev.control.widget.55B67C0C-0164-49A3-91B8-B86A412C6689
+2026-11-01 15:24:49.039 Df runningboardd[408:89f673] [com.apple.runningboard:ttl] [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] termination reported by launchd (2, 5, 5)
+2026-11-01 15:24:49.039 Df runningboardd[408:89f673] [com.apple.runningboard:process] Removing process: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]
+2026-11-01 15:24:49.040 Df runningboardd[408:89f9a3] [com.apple.runningboard:assertion] ignoring [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242] as candidate for concrete target as it is terminating
+2026-11-01 15:24:49.040 Df runningboardd[408:89f673] [com.apple.runningboard:process] Removing assertions for terminated process: [extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]:82242]
+2026-11-01 15:24:49.040 Df runningboardd[408:89f673] [com.apple.runningboard:assertion] Removed last relative-start-date-defining assertion for process extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]
+2026-11-01 15:24:49.041 Df chronod[703:89faaf] [com.apple.chrono:location] [ext:local.sony-rev.control::local.sony-rev.control.widget] stopped tracking
+2026-11-01 15:24:49.041 Df chronod[703:89fac9] [com.apple.chrono:keepalive] Removed: <Task A10151AC-BA3D-42F8-A483-6160DFFC1E84: descriptor<local.sony-rev.control::local.sony-rev.control.widget>>
+2026-11-01 15:24:49.041 Df chronod[703:89fac9] [com.apple.chrono:tasksession] [4E96B74E]: _taskQueue_evaluate() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.041 Df chronod[703:89fac9] [com.apple.chrono:tasksession] [4E96B74E]: _taskQueue_teardown() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.041 Df chronod[703:89fac9] [com.apple.chrono:tasksession] [4E96B74E]: _taskQueue_complete() with task descriptor<local.sony-rev.control::local.sony-rev.control.widget>.4E96B74E
+2026-11-01 15:24:49.041 Df chronod[703:89faaf] [com.apple.chrono:session] Connection to extension process was invalidated: local.sony-rev.control.widget
+2026-11-01 15:24:49.041 Df runningboardd[408:89f673] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: none (role: None) (endowments: (null))
+2026-11-01 15:24:49.041 E  chronod[703:89faca] [com.apple.chrono:descriptor] [local.sony-rev.control::local.sony-rev.control.widget] query failed - will try lazy reload later: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service with pid -1 named (null) was invalidated." UserInfo={NSDebugDescription=The connection to service with pid -1 named (null) was invalidated.}
+2026-11-01 15:24:49.041 Df runningboardd[408:89fae4] [com.apple.runningboard:monitor] Calculated state for extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689]: none (role: None) (endowments: (null))
+2026-11-01 15:24:49.041 Df WindowServer[403:89f382] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:49.041 Df UIKitSystem[92872:89fa9c] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:49.041 Df WindowServer[403:89f4bb] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:49.041 Df UIKitSystem[92872:89f611] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:49.041 Df chronod[703:89fac9] [com.apple.chrono:session] Connection to extension process was interrupted: local.sony-rev.control.widget
+2026-11-01 15:24:49.041 Df gamepolicyd[512:89f39e] [com.apple.runningboard:monitor] Received state update for 82242 (extension<local.sony-rev.control.widget[config:6E69CA09-34E3-3493-B8FC-B5021E1ACB71]((null):703)(501)>[uuid:55B67C0C-0164-49A3-91B8-B86A412C6689], none-NotVisible
+2026-11-01 15:24:49.563 Df ReportCrashService[82243:89fb78] loadStoreInfo [platform 1] local.sony-rev.control.widget from file:///Users/theashgen/Applications/Sony%20Control.app/
+2026-11-01 15:24:49.564 Df ReportCrashService[82243:89fb78] extension check: bundleID=local.sony-rev.control.widget, teamID=, task=8963, featureEnabled=1
+2026-11-01 15:24:49.570 Df ReportCrashService[82243:89fb78] local.sony-rev.control.widget is not a MetricKit client
+2026-11-01 15:24:59.146 Df log[82249:89fc0f] [com.apple.log:] log run noninteractively, parent: 82248 (zsh), args: '/usr/bin/log' 'show' '--last' '6m' '--style' 'compact' '--predicate' 'eventMessage CONTAINS "local.sony-rev.control.widget"'

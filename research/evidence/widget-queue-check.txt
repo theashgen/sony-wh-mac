@@ -1,0 +1,12 @@
+Final native widget action-queue verification, 2026-11-01
+Invocation: SONY_WIDGET_CHECK=1 SONY_WIDGET_CAPTURE="$PWD/research/evidence/widget.png" swift run --skip-build sony-control menu
+Observed output:
+Widget queue verified: rapid mode changes, ambient levels, voice toggles, retained battery
+Widget original sound and EQ restored: WH-CH720N · Battery 78%
+Sound: Ambient · Ambient level 20 · Voice focus off
+EQ: custom1
+Widget disconnect/reconnect verified
+WIDGET CHECK PASSED
+Widget capture: research/evidence/widget.png
+
+The queue is the same one bound to panel controls. No physical mouse automation was used.

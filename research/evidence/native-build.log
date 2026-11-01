@@ -1,0 +1,28 @@
+Building for production...
+[Planning deferred tasks]
+[8 / 22]
+[10 / 24] SonyProtocol
+[12 / 25] WidgetShared
+[14 / 26] WidgetShared
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: WidgetShared: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[25 / 26] SonyProtocol
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: SonyProtocol: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[25 / 26] sony-control-product
+[34 / 57]
+[40 / 57]
+[46 / 57]
+[49 / 57]
+[50 / 57]
+[52 / 57]
+[53 / 57]
+[54 / 57]
+[55 / 57]
+[56 / 57] sony-control-product
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/usr/lib' not found
+/Users/theashgen/.t3/projects/sony-rev/Package.swift: sony-control-product: ld: warning: search path '/Library/Developer/CommandLineTools/Developer/Library/Frameworks' not found
+[60 / 62] sony-control-product
+[61 / 62] sony-control-product
+Build complete! (8.85 secs)
+/Users/theashgen/.t3/projects/sony-rev/.build/Sony Control.app/Contents/PlugIns/SonyControlWidget.appex: replacing existing signature
+/Users/theashgen/.t3/projects/sony-rev/.build/Sony Control.app: replacing existing signature
+Built /Users/theashgen/.t3/projects/sony-rev/.build/Sony Control.app
