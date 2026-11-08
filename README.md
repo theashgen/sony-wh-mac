@@ -2,6 +2,16 @@
 
 Control noise cancellation, ambient sound, voice focus, saved EQ presets, and battery status directly over Bluetooth from macOS. Built from analysis of Sound Connect 13.3.0 and verified against the user's WH-CH720N, firmware 1.1.4.
 
+## Screenshots
+
+**Menu bar controls** — noise control, ambient sound, voice focus, EQ presets, and battery status.
+
+![Sony Control menu bar popover showing WH-CH720N controls and battery status](docs/screenshots/menu-bar-controls.png)
+
+**Desktop widget** — headphone battery and sound mode with ANC, Ambient, and Off shortcuts.
+
+![Sony Headphones desktop widget beside the macOS Batteries widget](docs/screenshots/desktop-widget.png)
+
 ## Open the menu bar controls
 
 Version 0.3 uses a native menu bar popover. The installed app is at `~/Applications/Sony Control.app`:
